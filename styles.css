@@ -1,0 +1,50 @@
+*,
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Segoe UI;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: Segoe UI;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    font-family: Segoe UI;
+}
+
+.brand {
+    margin-right: 1rem;
+    display: flex;
+    font-family: Segoe UI;
+}
+
+.large-hr {
+    border: none;
+    height: 4px;
+    background-color: black;
+    margin: 10px 0;
+  }
+
+.container {
+    background-image: url("/Assests/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Segoe UI;
+    color: white;
+    display: flex;
+    min-height: 20rem;
+  }
