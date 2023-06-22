@@ -13,16 +13,23 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    font-family: Segoe UI;
-    
+    margin:1cm;
+    align-items: center;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 4rem;
-    font-family: Segoe UI;
+    font-family: Segoe UI, regular;
+    font-size: 20px;
+    letter-spacing: .18px;
+}
+
+.cart {
+    font-family: Segoe UI, regular;
+    font-size: 20px;
+    letter-spacing: .18px;
 }
 
 .brand {
@@ -31,20 +38,358 @@ nav ul {
     font-family: Segoe UI;
 }
 
+.cara-header {
+    font-family: Segoe UI, Semibold;
+    font-size: 40px;
+    height: 40px;
+    width: 140px;
+    letter-spacing: 9.56px;
+}
+
+.search-input {
+    background-image: url(/Assests/Magnifying\ glass.png);
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    border: 2px solid black;
+}
+
 .large-hr {
+    border: none;
+    background-color: black;
+    margin: 1cm;
+    justify-content: center;
+    height: 4px;
+  }
+
+.container {
+    background-image: 
+    linear-gradient(to right, rgb(0, 0, 0, 1), rgb(255, 254, 254, 0), rgb(0, 0, 0, 1)),
+    url("/Assests/background.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    height: 633px;
+    padding: 50px;
+    color: white;
+    font-family: Segoe UI, Semilight;
+    font-weight: 100;
+    letter-spacing: 2.25px;
+    font-size: 45px;
+}
+.container2 {
+    /* display: flex; */
+    width: 378px;
+    height: 197px
+} 
+
+.container3 {
+    text-align: right;
+    align-self: flex-end;
+    width: 284px;
+    height: 197px
+} 
+
+.about {
+    font-family: Segoe UI, Regular;
+    font-size: 45px;
+    margin: 1cm;
+    letter-spacing: 2.25px;
+}
+
+.large-hr2 {
+    border: none;
+    height: 4px;
+    background-color: black;
+    margin: 1cm;
+    width: 950px;
+  }
+
+.big-container {
+    display: flex;
+    padding: 1cm;
+    height: 808px;
+}
+
+.vase {
+    width: 397px;
+    padding-right: 2cm;
+    height: 534px;
+}
+.paraim {
+    display: flex;
+    height: 534px;
+    padding-right: 2cm;
+    padding-top: 1cm;
+    font-family: Segoe UI, Semilight;
+    font-size: 20px;
+    align-self: left;
+
+}
+.small-container {
+    padding:1cm
+}
+
+.para1 {
+    font-family: Segoe UI, Semilight;
+    font-size: 20px;
+    align-self: left;
+    padding: 1cm;
+}
+
+.cylinder {
+    height: 808px;
+    width: 601px;
+}
+
+.products {
+    font-family: Segoe UI, Regular;
+    font-size: 45px;
+    letter-spacing: 2.25px;
+    margin: 1cm;
+}
+
+.allproducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.first-row {
+    display: flex;
+    width: 1920px;
+    justify-content: space-between;
+    padding: 2cm;
+}
+
+.mundobowls {
+    width: 398px;
+    height: 398px;
+}
+.mundoheader {
+    font-family: Segoe UI, Semilight;
+    font-size: 30px;
+}
+
+.large-hr-products {
     border: none;
     height: 4px;
     background-color: black;
     margin: 10px 0;
-  }
+    width: 276px;
+    padding-left: 1cm;
+}
 
-.container {
-    background-image: url("/Assests/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: Segoe UI;
+.item-price {
+    font-family: Segoe UI, Semilight;
+    font-size: 30px
+}
+.productp {
+    font-family: Segoe UI, Semilight;
+    font-size: 20px;
+    height: 116px;
+    width: 398px
+}
+
+.learn-more {
+    font-family: Segoe UI, Semilight;
+    font-size: 20px;
+    height: 20px;
+    width: 141px;
+    color: #BF7631;
+}
+.add-to-cart {
+    font-family: Segoe UI, Semibold;
+    font-size: 20px;
+    height: 20px;
+    width: 145px;
     color: white;
+    background-color: #BF7631;
+}
+
+.learnbutton {
     display: flex;
-    min-height: 20rem;
-  }
+    justify-content: space-between;
+    height: 39px;
+}
+
+.productheading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nvase {
+    width: 398px;
+    height: 398px;
+}
+
+.fbowls {
+    width: 398px;
+    height: 398px;
+}
+
+.second-row {
+    display: flex;
+    width: 1920px;
+    justify-content: space-between;
+    padding: 2cm;
+}
+
+.npots {
+    width: 398px;
+    height: 398px;
+}
+
+.pvase {
+    width: 398px;
+    height: 398px;
+}
+
+.vpots {
+    width: 398px;
+    height: 398px;
+}
+
+.splates {
+    width: 398px;
+    height: 398px;
+}
+
+.cvase {
+    width: 398px;
+    height: 398px;
+}
+
+.tbowls {
+    width: 398px;
+    height: 398px;
+}
+
+.third-row {
+    display: flex;
+    width: 1920px;
+    justify-content: space-between;
+    padding: 2cm;
+}
+
+.contact-us {
+    font-family: Segoe UI, Regular;
+    font-size: 45px;
+    margin:1cm;
+    letter-spacing: 2.25px;
+}
+
+.email-message {
+    font-family: Segoe UI, Semilight;
+    font-size: 30px;
+    width: 1020px;
+    height: 54px;
+}
+
+.email-input {
+    font-family: Segoe UI, Semilight;
+    font-size: 20px;
+    width: 1088px;
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI, Semilight;
+    font-size: 30px;
+    width: 1020px;
+    height: 54px;
+
+}
+
+.message-input {
+    font-family: Segoe UI, Semilight;
+    font-size: 20px;
+    width: 1088px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI, Semilight;
+    font-size: 30px;
+    width: 1020px;
+}
+
+.contact-form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.send-button {
+    width: 130px;
+    height: 39px;
+    background-color: #BF7631;
+    color: white;
+    font-family: Segoe UI, Semibold;
+    font-size: 20px;
+    position: relative;
+    left: 23em;
+}
+.footer {
+    /* display: flex; */
+    background-color: #BF7631;
+    /* height: 162px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0cm;
+    padding:20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    width: 74px;
+    height: 74px;
+}
+
+.cara-footer {
+    font-family: Segoe UI, Semibold;
+    font-size: 40px;
+    height: 40px;
+    width: 140px;
+    letter-spacing: 9.56px;
+}
+
+.icons-center {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: Segoe UI, Semilight;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text2 {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
